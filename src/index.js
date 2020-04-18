@@ -2,9 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import '@babel/polyfill';
-import './styles/main.scss';
 
-ReactDOM.render(
-    <App />,
-    document.getElementById('root')
-);
+// import './styles/main.scss';
+
+ReactDOM.render(<App />, document.getElementById('root'));
